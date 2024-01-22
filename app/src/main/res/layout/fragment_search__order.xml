@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/b1"
+    android:alpha=".9"
+    android:textAlignment="center"
+    tools:context=".Your_Reset">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                  android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:text=" Search "
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:shadowColor="@color/orng"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextPhone_Search"
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/textedit_reduies"
+                    android:ems="10"
+                    android:hint="   Enter your phone"
+                    android:textColor="@color/black"
+                    android:inputType="phone"
+                    android:textColorHint="@color/Dgry" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/reduies"
+                android:padding="10dp"
+                android:shadowRadius="2"
+                android:text="Search Your Order "
+                android:textColor="#FDFBFB"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Your Data :"
+                android:textColor="@color/orng"
+                android:layout_marginLeft="10dp"
+                android:shadowColor="@color/white"
+                android:shadowRadius="2"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/FIRSTNAME_Search"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/textedit_reduies"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/LASTNAME_Search"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/textedit_reduies"
+                android:gravity="center"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/EMAIL_Search"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/black"
+                android:background="@drawable/textedit_reduies"
+                android:backgroundTint="@color/Lgry"
+                android:gravity="center"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/TIME_Search"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/black"
+                android:background="@drawable/textedit_reduies"
+                android:gravity="center"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/DATE_Search"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/black"
+                android:background="@drawable/textedit_reduies"
+                android:gravity="center"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/NUMBER_Search"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/black"
+                android:background="@drawable/textedit_reduies"
+                android:gravity="center"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/RESERVATION_Search"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/textedit_reduies"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/PHONE_Search"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/black"
+                android:background="@drawable/textedit_reduies"
+                android:gravity="center"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+</FrameLayout>
